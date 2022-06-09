@@ -1,0 +1,45 @@
+body {
+  background-color: #B3E8E5;
+}
+
+h1 {
+  color: green;
+}
+
+h3 {
+  color: green;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: green;
+  border-width: 5px;
+  width: 5%;
+}
+
+.picture {
+  border-radius: 80%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F2C2C2; 
+  position: sticky;
+  top: 20px;
+}
+li {
+  float: left;
+}
+li a {
+    display: block;
+    color: #011640;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    background-color: #F26BB5;
+  }
